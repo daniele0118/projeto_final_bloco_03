@@ -11,7 +11,7 @@ function Navbar() {
                     <Link to='/home' className='text-2xl font-bold uppercase'>Farmácia</Link>
                     <div className='flex gap-4'>
                         <Link to='/categorias' className='hover:underline'>Categorias</Link>
-                        <Link to='/cadastrarCategoria' className='hover:underline'>Cadastrar Categoria</Link>
+                        <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                         <Basket size={48} weight='bold' />
                         <List size={48} weight='bold' />
                     </div>
