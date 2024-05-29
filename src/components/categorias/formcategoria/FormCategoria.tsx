@@ -80,12 +80,11 @@ function FormCategoria() {
             onSubmit={gerarNovaCategoria}
         >
             <div className="flex flex-col gap-2 ">
-            <label htmlFor="categoria">Categoria</label>
             <input
                 type="text"
                 placeholder="Categoria"
                 name='nome'
-                className="border-2 border-slate-700 rounded p-2 utral-800"
+                className="border-2 border-pink-700 rounded p-2 utral-800"
                 required
                 value={categoria.nome}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}

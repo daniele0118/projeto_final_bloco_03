@@ -34,9 +34,7 @@ function ListarCategorias() {
                 />
             )}
             <div className="
-                bg-gray-200 
-                flex 
-                justify-center
+                bg-gray-200 flex justify-center
                 ">
                 <div className="my-4 container flex flex-col">
 

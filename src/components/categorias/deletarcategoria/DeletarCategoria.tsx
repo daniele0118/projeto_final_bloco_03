@@ -52,10 +52,10 @@ function DeletarCategoria() {
         <div className='container w-1/3 mx-auto'>
             <h1 className='text-4xl text-center py-4'>Deletar Categoria</h1>
             <p className='text-center font-semibold mb-4'>
-                Você tem certeza de que deseja apagar a categoria a seguir?</p>
+                Você tem certeza de que deseja apagar essa categoria?</p>
             <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
                 <header
-                    className='py-2 px-6 bg-slate-600 text-white font-bold text-2xl'>
+                    className='py-2 px-6 bg-pink-600 text-white font-bold text-2xl'>
                     Categoria
                 </header>
                 <p className='p-8 text-3xl bg-white h-full'>{categoria.nome}</p>
